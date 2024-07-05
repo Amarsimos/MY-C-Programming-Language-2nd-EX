@@ -16,3 +16,6 @@ float f2c(int fhar)
 	return cc; // cc可以为任何表达式 ,0为正常退出
 }
 __TIMESTAMP__
+__TIME__
+__DATE__
+__FILE__
