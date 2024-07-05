@@ -15,3 +15,4 @@ float f2c(int fhar)
 	cc = (5.0 / 9.0) * (f - 32.0);
 	return cc; // cc可以为任何表达式 ,0为正常退出
 }
+__TIMESTAMP__
