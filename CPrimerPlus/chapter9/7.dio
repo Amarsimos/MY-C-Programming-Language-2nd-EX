@@ -1,0 +1,51 @@
+<mxfile host="65bd71144e">
+    <diagram id="Ijj5EDt_RK9-aadSeidn" name="Page-1">
+        <mxGraphModel dx="864" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="80" y="760" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="is_alphabat" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="360" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="alpha_pos" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="530" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="return -1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="report pos" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="670" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="11" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="'a'&amp;lt;char &amp;lt;'z'&amp;amp;&amp;amp;&lt;br&gt;'A'&amp;lt;char&amp;lt;'Z'&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="650" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="1 char-'a'+1&lt;br&gt;2 char-'A'+1&lt;br&gt;0 return -1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="960" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="return 1-&amp;gt;yes_low&lt;br&gt;return 2-&amp;gt;yes_up&lt;br&gt;return 0-&amp;gt;no" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="740" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
