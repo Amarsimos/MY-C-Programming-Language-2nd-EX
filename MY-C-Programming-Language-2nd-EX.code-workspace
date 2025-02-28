@@ -7,7 +7,14 @@
     "settings": {
         "files.associations": {
             "stdio.h": "c",
-            "cstdlib": "c"
+            "cstdlib": "c",
+            "utility": "c",
+            "string.h": "c",
+            "limits": "c",
+            "initializer_list": "c",
+            "compare": "c",
+            "type_traits": "c",
+            "cstring": "c"
         }
     }
 }
