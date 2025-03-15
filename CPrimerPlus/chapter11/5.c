@@ -21,9 +21,9 @@ int main(void)
         {
             str[i++] = '\0';
         }
-        q = strchr(str, 'a');
-        p = search_word(str, "a");
-        if (p == NULL)//直接打印NUL会导致程序崩溃
+        q = strchr(str, "a");      // 自带函数搜索字符串中第一个字符
+        p = search_word(str, "a"); // 自定义函数搜索字符串中第一个字符
+        if (p == NULL)             // 直接打印NUL会导致程序崩溃
         {
             printf("No word found.\n");
         }

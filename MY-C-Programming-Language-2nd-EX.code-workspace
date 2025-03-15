@@ -14,7 +14,9 @@
             "initializer_list": "c",
             "compare": "c",
             "type_traits": "c",
-            "cstring": "c"
+            "cstring": "c",
+            "ctype.h": "c",
+            "stdlib.h": "c"
         }
     }
 }
