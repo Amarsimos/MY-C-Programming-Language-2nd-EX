@@ -5,6 +5,7 @@
         }
     ],
     "settings": {
+        "editor.fontFamily": "'JetBrains Mono','TsukuARdGothic Std Bold','monospace'", //字体
         "files.associations": {
             "stdio.h": "c",
             "cstdlib": "c",
@@ -19,7 +20,31 @@
             "stdlib.h": "c",
             "2a.c": "cpp",
             "7-diceroll.h": "c",
-            "time.h": "c"
+            "time.h": "c",
+            "unistd.h": "c"
+        },
+        "background.enabled": true,
+        "background.fullscreen": {
+            "useFront": true,
+            "style": {
+                "background-position": "absolute",
+                "background-size": "cover",
+                "opacity": 0.8
+            },
+            "styles": [
+                {},
+                {},
+                {}
+            ],
+            "images": [
+                "file:///home/amarsimos/Documents/206-Background/1.jpg",
+                "file:///home/amarsimos/Documents/206-Background/2.jpg",
+                "file:///home/amarsimos/Documents/206-Background/3.jpg",
+                "file:///home/amarsimos/Documents/206-Background/4.jpg",
+                "file:///home/amarsimos/Documents/206-Background/5.jpg"
+            ],
+            "interval": 3600,
+            "random": true
         }
     },
 }

@@ -1,4 +1,4 @@
-
+// when input over limit, the program will exit.
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -19,7 +19,7 @@ int main(void)
     while (scanf("%d", &size) == 1 && size > 0)
     {
         ppa = make_array(size); // allocate memory for the array
-        printf("Enter %d words now:", size);
+        printf("Enter %d words now:\n", size);
         for (int i = 0; i < size; i++)
         {
             scanf("%s", tmp); //
@@ -62,7 +62,7 @@ void show_array(char *ar[], int n)
 {
     for (int i = 0; i < n; i++)
     {
-        printf("%s ", ar[i]);
+        printf("%s \n", ar[i]);
     }
     printf("\n");
 }
